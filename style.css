@@ -1,0 +1,45 @@
+body{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+.pagina{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /*opacity: 0.5;*/
+}
+
+.parigi{
+  width: 100vw;
+  height: 100vh;
+  background-image: url(img/parigi.png);
+  background-size: cover;
+  margin-bottom: 10px;
+}
+
+.roma{
+  width: 100vw;
+  height: 100vh;
+  background-image: url(img/roma.png);
+  background-size: cover;
+  margin-bottom: 10px;
+}
+
+.londra{
+  width: 100vw;
+  height: 100vh;
+  background-image: url(img/londra.png);
+  background-size: cover;
+  margin-bottom: 10px;
+}
+
+.testo{
+  text-align:center;
+  position: relative;
+  top: calc((100% - 170px) / 2);
+  font-size: 170px;
+  color: white;
+  font-style: oblique;
+}
